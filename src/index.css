@@ -1,0 +1,79 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 228 60% 10%;
+    --foreground: 210 40% 98%;
+
+    --card: 228 47% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 228 47% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 100% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 187 100% 50%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-space text-white relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-accent after:bottom-0 after:left-0;
+  }
+
+  .section-subheading {
+    @apply text-xl md:text-2xl font-medium text-accent mb-8 font-space;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white font-medium py-3 px-6 rounded-md transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-accent text-white hover:bg-accent/80 font-medium py-3 px-6 rounded-md transition-all duration-300;
+  }
+
+  .card-gradient {
+    @apply bg-gradient-to-br from-card to-card/70 backdrop-blur-sm;
+  }
+}
