@@ -6,13 +6,13 @@ const AboutSection = () => {
   return (
     <section id="about" className="section-padding bg-space-deep-blue">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row gap-12 items-center">
+        <div className="flex flex-col md:flex-row gap-12 items-center justify-center">
           {/* Image column */}
-          <div className="md:w-1/2 relative">
+          <div className="md:w-1/3 relative">
             <div className="rounded-lg overflow-hidden shadow-2xl relative">
               <div className="absolute inset-0 bg-gradient-to-br from-accent/40 to-primary/40 mix-blend-overlay"></div>
               <img 
-                src="https://images.unsplash.com/photo-1581092160607-ee22731c9e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" 
+                src="Photo.JPG" 
                 alt="Aerospace Engineer Portrait" 
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
@@ -23,7 +23,7 @@ const AboutSection = () => {
                 <CardContent className="p-4">
                   <div className="flex gap-3 items-center text-white">
                     <Award className="h-5 w-5 text-accent" />
-                    <span className="text-sm font-medium">Fresher</span>
+                    <span className="text-sm font-medium">CAD Specilist</span>
                   </div>
                 </CardContent>
               </Card>

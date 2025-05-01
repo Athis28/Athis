@@ -16,7 +16,7 @@ const Index = () => {
   useEffect(() => {
     // Welcome toast
     toast({
-      title: "Welcome to AthisMithun Portfolio",
+      title: "Welcome to Athis Mithun Portfolio",
       description: "Explore my work and experience in aerospace engineering",
       variant: "default",
     });

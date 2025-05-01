@@ -52,7 +52,7 @@ const ExperienceSection = () => {
       title: "Facilitator",
       company: "Vaayusastraa",
       description: "Served as a facilitator at Vaayusastra Aerospace, where I taught students the fundamentals and applications of drones (UAVs). Covered topics such as drone components, flight principles, real-world applications, and basic safety measures, helping learners gain both theoretical knowledge and practical insights into drone technology.",
-      technologies: ["Aircraft Inspection", "Aircraft Miantanence"]
+      technologies: ["Drone Technology", "UAVs", "Teaching"]
     },
     {
       year: "2023",

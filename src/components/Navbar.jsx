@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="flex items-center space-x-2 text-white">
           <Rocket className="h-6 w-6 text-accent animate-pulse-slow" />
-          <span className="text-xl font-space font-bold">AthisMithun</span>
+          <span className="text-xl font-space font-bold">Athis Mithun</span>
         </a>
         
         {/* Desktop Navigation */}
@@ -51,7 +51,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button className="btn-primary">Resume</Button>
+          <a href="Resume.pdf" download="Athis Mithun Resume.pdf" className="w-full">
+            <Button className="btn-primary w-full">Resume</Button>
+          </a>
         </nav>
         
         {/* Mobile Menu Toggle */}
@@ -77,7 +79,9 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="btn-primary w-full">Resume</Button>
+            <a href="Resume.pdf" download="Athis Mithun Resume.pdf" className="w-full">
+              <Button className="btn-primary w-full">Resume</Button>
+            </a>
           </div>
         </nav>
       )}
