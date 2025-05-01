@@ -23,7 +23,7 @@ const AboutSection = () => {
                 <CardContent className="p-4">
                   <div className="flex gap-3 items-center text-white">
                     <Award className="h-5 w-5 text-accent" />
-                    <span className="text-sm font-medium">CAD Specilist</span>
+                    <span className="text-sm font-medium">CAD Specialist</span>
                   </div>
                 </CardContent>
               </Card>
