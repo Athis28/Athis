@@ -26,6 +26,7 @@ const Footer = () => {
                 <a href="#home" className="text-white/60 hover:text-accent">Home</a>
                 <a href="#about" className="text-white/60 hover:text-accent">About</a>
                 <a href="#skills" className="text-white/60 hover:text-accent">Skills</a>
+                <a href="#projects" className="text-white/60 hover:text-accent">Projects</a>
                 <a href="#experience" className="text-white/60 hover:text-accent">Experience</a>
                 <a href="#contact" className="text-white/60 hover:text-accent">Contact</a>
               </div>
